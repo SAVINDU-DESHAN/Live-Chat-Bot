@@ -61,7 +61,7 @@
     },
     "LOG_CHANNEL": {
       "description": "Make a channel add the bot as admin and get the id of the channel using @googleimgbot",
-      "value": ""
+      "value": "-1001793793431"
     },
     "BROADCAST_AS_COPY": {
       "description": "If you provide value False then it will Forward with tag and if you give value as True then without tag",
