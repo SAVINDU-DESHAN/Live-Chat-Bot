@@ -21,7 +21,7 @@
     },
     "OWNER_ID": {
       "description": "Your ID Or Who need is going to handle this bot",
-      "value": "1428968542"
+      "value": "1263393688"
     },
     "DONATE_TEXT": {
       "description": "Your Donate Text as a string.",
@@ -57,7 +57,7 @@
     },
     "DB_NAME": {
       "description": "Provide name for DB to make session",
-      "value": "Feedback-Bot"
+      "value": "Live Chat Bot"
     },
     "LOG_CHANNEL": {
       "description": "Make a channel add the bot as admin and get the id of the channel using @googleimgbot",
@@ -69,7 +69,7 @@
     },
     "AUTH_USERS": {
       "description": "Provide AUTH User ID to use admin function",
-      "value": "1428968542"
+      "value": "1263393688"
     }
   },
   "addons": [
