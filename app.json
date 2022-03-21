@@ -1,0 +1,86 @@
+{
+  "name": "Live Chat Bot",
+  "description": "Telegram's Best Live Chat Bot",
+  "keywords": [
+    "telegram",
+    "best",
+    "LiveChat",
+    "bot"
+  ],
+  "success_url": "/",
+  "website": "https://github.com/SAVINDU-DESHAN/",
+  "repository": "https://github.com/SAVINDU-DESHAN/Live-Chat-Bot",
+  "env": {
+    "START_TEXT": {
+      "description": "Your Start message as a string & There Is default Of 'Hello <username>'.",
+      "value": ""
+    },
+    "HELP_TEXT": {
+      "description": "Your Help Text as a string.",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Your ID Or Who need is going to handle this bot",
+      "value": "1428968542"
+    },
+    "DONATE_TEXT": {
+      "description": "Your Donate Text as a string.",
+      "value": ""
+    },
+    "DONATE_LINK": {
+      "description": "Your Donation Link",
+      "value": "https://ko-fi.com/savindu_deshan/"
+    },
+    "SUPPORT_GROUP": {
+      "description": "Your Group Link",
+      "value": "https://t.me/Rawana_Developers_Chat/"
+    },
+    "UPDATE_CHANNEL": {
+      "description": "Your Channel Link",
+      "value": "https://t.me/Rawana_Developers/"
+    },
+    "BOT_TOKEN": {
+      "description": "Your Bot Token, as a string.",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "DB_URL": {
+      "description": "Provided Mongodb Database link from mongodb.com",
+      "value": ""
+    },
+    "DB_NAME": {
+      "description": "Provide name for DB to make session",
+      "value": "Feedback-Bot"
+    },
+    "LOG_CHANNEL": {
+      "description": "Make a channel add the bot as admin and get the id of the channel using @googleimgbot",
+      "value": ""
+    },
+    "BROADCAST_AS_COPY": {
+      "description": "If you provide value False then it will Forward with tag and if you give value as True then without tag",
+      "value": "True"
+    },
+    "AUTH_USERS": {
+      "description": "Provide AUTH User ID to use admin function",
+      "value": "1428968542"
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
